@@ -1,0 +1,125 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #fcfcfc;
+  line-height: 1.5;
+  font-size: 16px;
+  font-weight: regular;
+  letter-spacing: 2%;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #4d5ae5;
+}
+.accent {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #2e2f42;
+}
+
+.navigation > li {
+  list-style-type: none;
+}
+.navigation > li a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #2e2f42;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.navigation > li a:hover {
+  color: #404bbf;
+}
+.contacts a {
+  text-decoration: none;
+  font-weight: 400;
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 2%;
+}
+
+.contacts a:hover {
+  color: #404bbf;
+}
+.order-service {
+  background-color: #4d5ae5;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 4%;
+}
+
+.order-service:hover {
+  background-color: #404bbf;
+  cursor: pointer;
+  
+}
+
+.title {
+  font-size: 56px;
+  font-weight: bold;
+  letter-spacing: 2%;
+  line-height: 60px;
+  background-color: #2e2f42;
+  color: #ffffff;
+  width: 1440px;
+  height: 600px;
+}
+h2 {
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: 2%;
+  color: #2e2f42;
+}
+h3 {
+  font-size: 20px;
+  font-weight: medium;
+  letter-spacing: 2%;
+  color: #2e2f42;
+}
+
+.footer {
+  width: 1440px;
+  height: 312px;
+  top: 2988px;
+  background: #2e2f42;
+}
+.logo-footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #4d5ae5;
+}
+.accent-footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #fafafd;
+  font-size: 18px;
+}
+.footer-text {
+  width: 264px;
+  height: 72px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #f4f4fd;
+}

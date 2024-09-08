@@ -1,2 +1,1 @@
-# goit-markup-hw-03
- Ödev-3
+https://github.com/mevlude-ozdemir/goit-markup-hw-02/tree/main
