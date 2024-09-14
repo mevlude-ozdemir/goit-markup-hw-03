@@ -1,56 +1,11 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
-  background-color: #fcfcfc;
+  background-color: #ffffff;
   line-height: 1.5;
   font-size: 16px;
   font-weight: regular;
   letter-spacing: 2%;
-  margin: 0;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "roboto", sans-serif;
-}
-ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-p {
-  font-family: Roboto, sans-serif;
-}
-.page-container {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-.content {
-  flex-grow: 1;
-}
-.container-header {
-  display: flex;
-  justify-content: space-around;
-  flex-basis: 1440px;
-  height: 72px;
-  align-items: center;
-  border-bottom: 1px solid #e7e9fc;
-}
-.page-nav {
-  display: flex;
-  flex-direction: row;
-  gap: 8px;
 }
 
 .logo {
@@ -71,94 +26,130 @@ p {
   color: #2e2f42;
 }
 
-.page-nav > li {
+.navigation > ul {
   list-style-type: none;
 }
-.page-nav > li a {
+.navigation > ul a {
+  list-style-type: none;
   text-decoration: none;
   font-weight: 500;
   color: #2e2f42;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
-.page-nav > li a:hover {
+ul {
+  list-style-type: none;
+}
+.navigation > ul a:hover {
   color: #404bbf;
 }
-
-.contacts a {
+.navigation #studio:focus {
+  color: #404bbf;
+  text-decoration: underline;
+}
+.contacts {
+  font-style: normal;
+}
+.contacts .contacts-link {
   text-decoration: none;
   font-weight: 400;
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 
-.contacts a:hover {
+.contacts .contacts-link:hover {
   color: #404bbf;
 }
-.title-container {
-  background-color: #2e2f42;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.contacts .contacts-link:focus {
+  color: #404bbf;
+}
 
-  color: #ffffff;
-  flex-basis: 1440px;
+.section-one {
+  background-color: #2e2f42;
+
   height: 600px;
-  gap: 20px;
 }
 .title {
   font-size: 56px;
   font-weight: bold;
-  letter-spacing: 2%;
-  line-height: 60px;
-  width: 496px;
-  text-align: justify;
-  height: 120px;
+  letter-spacing: 0.02em;
+  line-height: 1.07;
+  text-align: center;
+  color: #ffffff;
 }
 
-.title-container .order-service {
+.button {
   background-color: #4d5ae5;
-  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 4%;
-  width: 169px;
-  height: 56px;
-  box-shadow: 0px 4px 4px 0px #00000026;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
 }
 
-.order-service:hover {
+.button:hover {
   background-color: #404bbf;
-  cursor: pointer;
+}
+.button:focus {
+  background-color: #404bbf;
 }
 
 h2 {
   font-size: 36px;
-  font-weight: bold;
+  font-weight: 700;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
   letter-spacing: 2%;
   color: #2e2f42;
 }
 h3 {
   font-size: 20px;
-  font-weight: medium;
-  letter-spacing: 2%;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
-
-.flex-items {
-  display: flex;
-  align-items: center;
-  gap: 24px;
-  margin-right: 10%;
-  margin-left: 10%;
-  justify-content: space-between;
-  flex-basis: 1128px;
+.sec-two-p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #434455;
+  line-height: 1.5em;
+  letter-spacing: 0.02em;
+  /* text-align: left; */
 }
-.flex-items > li {
-  width: calc((1128px - 3 * 24px) / 4);
+.section-three {
+  background-color: #f4f4fd;
+}
+.section-three li {
+  width: 264px;
+  height: 380px;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 1px 0px #2e2f4214;
+
+  box-shadow: 0px 1px 1px 0px #2e2f4229;
+
+  box-shadow: 0px 1px 6px 0px #2e2f4214;
+}
+p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #434455;
+  line-height: 1.5em;
+  letter-spacing: 0.02em;
+  /* text-align: center; */
+}
+
+.section-four li {
+  width: 360px;
+  height: 420px;
+  border: 1px solid #e7e9fc;
 }
 .footer {
   width: 1440px;
@@ -178,18 +169,14 @@ h3 {
   color: #4d5ae5;
 }
 .accent-footer {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  color: #fafafd;
-  font-size: 18px;
+  color: #f4f4fd;
 }
 .footer-text {
   width: 264px;
   height: 72px;
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5em;
   letter-spacing: 0.02em;
   text-align: left;
   color: #f4f4fd;
