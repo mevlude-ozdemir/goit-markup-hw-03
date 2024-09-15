@@ -125,6 +125,7 @@ ul {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 188px 0;
   gap: 40px;
 }
 .title {
@@ -134,12 +135,12 @@ ul {
   line-height: 1.07;
   text-align: center;
   color: #ffffff;
-  /* flex-wrap: wrap; */
-  width: 600px;
-  /* height: 120px; */
+  max-width: 496px;
+ 
 }
 
 .button {
+  display: block;
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -149,7 +150,7 @@ ul {
   color: #ffffff;
   cursor: pointer;
   border: none;
-  width: Hug (169px) px;
+  min-width: 169px;
   height: Hug (56px) px;
   top: 20px;
   left: 20px;
@@ -182,6 +183,7 @@ h3 {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .section-two {
   height: 344px;
@@ -189,6 +191,7 @@ h3 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 120px 0;
 }
 .sec-two-list {
   display: flex;
@@ -201,8 +204,13 @@ h3 {
   gap: 10px;
   opacity: 0px;
 }
-.section-two h2 {
+.visually-hidden {
+  overflow: hidden;
   visibility: hidden;
+}
+.sec-two-list-item {
+  width: calc((100% - 72px) / 4);
+
 }
 .sec-two-p {
   font-size: 16px;
