@@ -194,7 +194,7 @@ h3 {
   color: #434455;
   line-height: 1.5em;
   letter-spacing: 0.02em;
-  /* text-align: left; */
+  text-align: left;
 }
 
 .container-sec-three {
@@ -205,8 +205,6 @@ h3 {
   /* width: 1440px; */
   height: 732px;
   top: 1016px;
-  
-  opacity: 0px;
 }
 .sec-three-list {
   display: flex;
@@ -218,10 +216,9 @@ h3 {
 .section-three {
   background-color: #f4f4fd;
 }
-.section-three h3, p {
-  
+.section-three h3,
+p {
   text-align: center;
-
 }
 .sec-three-list-item {
   gap: 20px;
@@ -241,14 +238,39 @@ h3 {
   padding: 0px 0px 32px 0px;
   border-radius: 0px 0px 4px 4px;
 }
-
+.section-four {
+  height: 1240px;
+}
+.container-sec-four {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 120px;
+  
+}
+.sec-four-list {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  gap: 24px;
+  width: 1200px;
+  margin-top: 72px;
+  flex-wrap: wrap;
+}
+.section-four h3,
+.section-four p {
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 15px;
+}
 p {
   font-size: 16px;
   font-weight: 400;
   color: #434455;
   line-height: 1.5em;
   letter-spacing: 0.02em;
-  /* text-align: center; */
 }
 
 .section-four li {
