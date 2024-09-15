@@ -22,7 +22,6 @@
     <title>Main Page</title>
   </head>
   <body>
-   
     <header class="header">
       <div class="name-container container">
         <nav class="navigation">
@@ -60,7 +59,7 @@
     </header>
     <main>
       <section class="section-one">
-        <div class="one-container">
+        <div class="one-container container">
           <h1 class="title">Effective Solutions for Your Business</h1>
 
           <button class="button" type="button">Order Service</button>
@@ -104,7 +103,7 @@
       </section>
 
       <section class="section-three">
-        <div class="three-container  container">
+        <div class="three-container container">
           <h2 class="sec-three-htwo">Our Team</h2>
           <ul class="sec-three-list">
             <li class="sec-three-list-item">
@@ -114,9 +113,10 @@
                 width="264"
                 height="260"
               />
-
-              <h3 class="sec-three-hthree">Mark Guerrero</h3>
-              <p class="sec-three-p">Product Designer</p>
+              <div class="team-card">
+                <h3 class="sec-three-hthree">Mark Guerrero</h3>
+                <p class="sec-three-p">Product Designer</p>
+              </div>
             </li>
 
             <li class="sec-three-list-item">
@@ -125,9 +125,9 @@
                 alt="Tom Ford"
                 width="264"
                 height="260"
-              />
+              /><div class="team-card">
               <h3 class="sec-three-hthree">Tom Ford</h3>
-              <p class="sec-three-p">Frontend Developer</p>
+              <p class="sec-three-p">Frontend Developer</p></div>
             </li>
             <li class="sec-three-list-item">
               <img
@@ -135,9 +135,9 @@
                 alt="Camila Garcia"
                 width="264"
                 height="260"
-              />
+              /><div class="team-card">
               <h3 class="sec-three-hthree">Camila Garcia</h3>
-              <p class="sec-three-p">Marketing</p>
+              <p class="sec-three-p">Marketing</p></div>
             </li>
             <li class="sec-three-list-item">
               <img
@@ -145,19 +145,19 @@
                 alt="Daniel Wilson"
                 width="264"
                 height="260"
-              />
+              /><div class="team-card">
               <h3 class="sec-three-hthree">Daniel Wilson</h3>
-              <p class="sec-three-p">UI Designer</p>
+              <p class="sec-three-p">UI Designer</p></div>
             </li>
           </ul>
         </div>
       </section>
 
       <section class="section-four">
-        <div class="four-container  container">
+        <div class="four-container container">
           <h2 class="section-four-htwo">Our Portfolio</h2>
           <ul class="sec-four-list">
-            <li>
+            <li class="sec-four-list-item">
               <img
                 src="./images/banking.jpg"
                 alt="Banking App"
@@ -168,7 +168,7 @@
               <h3 class="section-four-hthree">Banking App</h3>
               <p class="section-four-p">App</p>
             </li>
-            <li>
+            <li class="sec-four-list-item">
               <img
                 src="./images/cashless.jpg"
                 alt="Cashless Payment"
@@ -178,47 +178,48 @@
               <h3 class="section-four-hthree">Cashless Payment</h3>
               <p class="section-four-p">Marketing</p>
             </li>
-            <li>
+            <li class="sec-four-list-item">
               <img
                 src="./images/meditation.jpg"
                 alt="Meditation App"
                 width="360"
                 height="300"
               />
+              <div class="app-card">
               <h3 class="section-four-hthree">Meditation App</h3>
-              <p class="section-four-p">App</p>
+              <p class="section-four-p">App</p></div>
             </li>
 
-            <li>
+            <li class="sec-four-list-item">
               <img
                 src="./images/taxi.jpg"
                 alt="Taxi Service"
                 width="360"
                 height="300"
-              />
+              /><div class="app-card">
 
               <h3 class="section-four-hthree">Taxi Service</h3>
-              <p class="section-four-p">Marketing</p>
+              <p class="section-four-p">Marketing</p></div>
             </li>
-            <li>
+            <li class="sec-four-list-item">
               <img
                 src="./images/screen.jpg"
                 alt="Screen Illustrations"
                 width="360"
                 height="300"
-              />
+              /><div class="app-card">
               <h3 class="section-four-hthree">Screen Illustrations</h3>
-              <p class="section-four-p">Design</p>
+              <p class="section-four-p">Design</p></div>
             </li>
-            <li>
+            <li class="sec-four-list-item">
               <img
                 src="./images/online.jpg"
                 alt="Online Courses"
                 width="360"
                 height="300"
-              />
+              /><div class="app-card">
               <h3 class="section-four-hthree">Online Courses</h3>
-              <p class="section-four-p">Marketing</p>
+              <p class="section-four-p">Marketing</p></div>
             </li>
           </ul>
         </div>
@@ -236,6 +237,5 @@
         </p>
       </div>
     </footer>
-  
   </body>
 </html>

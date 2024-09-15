@@ -63,6 +63,7 @@ img {
 .navigation {
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 .nav-list {
   display: flex;
@@ -79,6 +80,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 .navigation > ul a:hover {
@@ -94,6 +96,7 @@ img {
 .contacts-list {
   display: flex;
   align-items: center;
+  gap: 40px;
 }
 .contacts .contacts-link {
   text-decoration: none;
@@ -184,6 +187,9 @@ h3 {
   justify-content: center;
   padding: 120px 0;
 }
+.visually-hidden {
+  visibility: hidden;
+}
 .sec-two-list {
   display: flex;
   align-items: center;
@@ -192,16 +198,15 @@ h3 {
   height: 104px;
   top: 792px;
   left: 156px;
-  gap: 10px;
+  gap: 24px;
   opacity: 0px;
 }
-.visually-hidden {
-  overflow: hidden;
-  visibility: hidden;
-}
-.sec-two-list-item {
+.sec-two-list > li {
   width: calc((100% - 72px) / 4);
 }
+/* .sec-two-list-item {
+  width: calc((100% - 72px) / 4);
+} */
 .sec-two-p {
   font-size: 16px;
   font-weight: 400;
@@ -210,57 +215,67 @@ h3 {
   letter-spacing: 0.02em;
   text-align: left;
 }
-
+.section-three {
+  background-color: #f4f4fd;
+  padding: 120px 0;
+}
 .three-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* width: 1440px; */
-  height: 732px;
-  top: 1016px;
+  
+}
+.sec-three-htwo {
+  margin-bottom: 72px;
 }
 .sec-three-list {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  gap: 32px;
+  gap: 24px;
   align-content: center;
-}
-.section-three {
-  background-color: #f4f4fd;
-}
-.section-three h3,
-p {
-  text-align: center;
 }
 .sec-three-list-item {
   gap: 20px;
   display: flex;
   flex-direction: column;
-}
-.section-three li {
-  margin-top: 112px;
   background-color: #ffffff;
   box-shadow: 0px 2px 1px 0px #2e2f4214;
   box-shadow: 0px 1px 1px 0px #2e2f4229;
   box-shadow: 0px 1px 6px 0px #2e2f4214;
-  width: Hug (264px) px;
+  width: calc((100% - 72px) / 4);
   height: Hug (380px) px;
   top: 1248px;
   left: 156px;
   padding: 0px 0px 32px 0px;
   border-radius: 0px 0px 4px 4px;
 }
+
+.team-card {
+  padding: 32px 0;
+}
+.sec-three-hthree {
+  text-align: center;
+  margin-bottom: 8px;
+}
+.sec-three-p {
+  text-align: center;
+}
+
+
 .section-four {
   height: 1240px;
+  padding: 120px 0;
 }
 .four-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 120px;
+}
+.section-four-htwo {
+  margin-top: 72px;
 }
 .sec-four-list {
   display: flex;
@@ -271,6 +286,10 @@ p {
   width: 1200px;
   margin-top: 72px;
   flex-wrap: wrap;
+  row-gap: 48px
+}
+.sec-four-list-item {
+  width: calc((100% - 72px) / 3);
 }
 .section-four h3,
 .section-four p {
@@ -285,12 +304,13 @@ p {
   line-height: 1.5em;
   letter-spacing: 0.02em;
 }
-
-.section-four li {
-  width: 360px;
-  height: 420px;
+.app-card {
+  padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
 }
+
 .footer {
   padding: 100px 0;
   width: 100vw;
