@@ -188,7 +188,7 @@ h3 {
   padding: 120px 0;
 }
 .visually-hidden {
-  visibility: hidden;
+  display: none;
 }
 .sec-two-list {
   display: flex;
@@ -201,12 +201,10 @@ h3 {
   gap: 24px;
   opacity: 0px;
 }
-.sec-two-list > li {
+.sec-two-list-item {
   width: calc((100% - 72px) / 4);
 }
-/* .sec-two-list-item {
-  width: calc((100% - 72px) / 4);
-} */
+
 .sec-two-p {
   font-size: 16px;
   font-weight: 400;
