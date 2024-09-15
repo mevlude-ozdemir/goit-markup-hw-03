@@ -80,7 +80,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.header li {
+.header ul > li {
   padding: 24px 0;
 }
 ul {
