@@ -65,9 +65,11 @@ img {
   align-items: center;
   justify-content: space-evenly;
   gap: 40px;
+  
+}
+.list-item {
   padding: 24px 0;
 }
-
 .navigation > ul {
   list-style-type: none;
 }
