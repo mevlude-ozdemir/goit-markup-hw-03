@@ -66,9 +66,7 @@ img {
   align-items: center;
   justify-content: space-evenly;
 }
-.nav-list:first-child {
-  padding: 24px 0;
-}
+
 .navigation > ul {
   list-style-type: none;
   gap: 40px;
@@ -82,7 +80,9 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-
+.header li {
+  padding: 24px 0;
+}
 ul {
   list-style-type: none;
 }
