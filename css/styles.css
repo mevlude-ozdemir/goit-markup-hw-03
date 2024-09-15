@@ -162,7 +162,7 @@ h2 {
 }
 h3 {
   font-size: 20px;
-  font-weight: 500;
+  /* font-weight: 500; */
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
@@ -218,20 +218,27 @@ h3 {
 .section-three {
   background-color: #f4f4fd;
 }
+.section-three h3, p {
+  
+  text-align: center;
+
+}
+.sec-three-list-item {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
 .section-three li {
   margin-top: 112px;
   background-color: #ffffff;
   box-shadow: 0px 2px 1px 0px #2e2f4214;
-  
   box-shadow: 0px 1px 1px 0px #2e2f4229;
-
   box-shadow: 0px 1px 6px 0px #2e2f4214;
   width: Hug (264px) px;
   height: Hug (380px) px;
   top: 1248px;
   left: 156px;
   padding: 0px 0px 32px 0px;
-  
   border-radius: 0px 0px 4px 4px;
 }
 
