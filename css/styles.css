@@ -66,11 +66,12 @@ img {
   align-items: center;
   justify-content: space-evenly;
 }
-.nav-list li {
+.nav-list:first-child {
   padding: 24px 0;
 }
 .navigation > ul {
   list-style-type: none;
+  gap: 40px;
 }
 .navigation > ul a {
   list-style-type: none;
