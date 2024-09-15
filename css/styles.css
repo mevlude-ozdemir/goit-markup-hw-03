@@ -20,12 +20,25 @@ p {
 ul {
   margin: 0;
 }
+img {
+  display: block;
+}
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+.container {
+  width: 1158px
+  padding: 0 15px
+}
 .name-container {
   display: flex;
   align-items: center;
   justify-content: space-around;
   height: 72px;
-  border-bottom: 1px solid #e7e9fc;
+ 
+}
+.header a {
+  margin-right: 76px;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -53,6 +66,7 @@ ul {
   align-items: center;
   justify-content: space-evenly;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .navigation > ul {
