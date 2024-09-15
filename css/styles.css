@@ -7,12 +7,18 @@ body {
   font-weight: regular;
   letter-spacing: 2%;
 }
-h1, h2, h3, h4, h5, h6, p {
-	margin: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
 }
 
 ul {
-	margin: 0;
+  margin: 0;
 }
 .name-container {
   display: flex;
@@ -51,7 +57,6 @@ ul {
 
 .navigation > ul {
   list-style-type: none;
-  
 }
 .navigation > ul a {
   list-style-type: none;
@@ -74,7 +79,6 @@ ul {
 }
 .contacts {
   font-style: normal;
-  
 }
 .contacts-list {
   display: flex;
@@ -89,7 +93,6 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  
 }
 
 .contacts .contacts-link:hover {
@@ -101,16 +104,23 @@ ul {
 
 .section-one {
   background-color: #2e2f42;
-
   height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
 }
 .title {
   font-size: 56px;
-  font-weight: bold;
+  font-weight: 700;
   letter-spacing: 0.02em;
   line-height: 1.07;
   text-align: center;
   color: #ffffff;
+  /* flex-wrap: wrap; */
+  width: 600px;
+  /* height: 120px; */
 }
 
 .button {
@@ -122,6 +132,15 @@ ul {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
+  border: none;
+  width: Hug (169px) px;
+  height: Hug (56px) px;
+  top: 20px;
+  left: 20px;
+  padding: 16px 32px 16px 32px;
+  gap: 10px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px #00000026;
 }
 
 .button:hover {
@@ -147,6 +166,29 @@ h3 {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+.section-two {
+height: 344px;
+display: flex;
+flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.sec-two-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1128px;
+height: 104px;
+top: 792px;
+left: 156px;
+gap: 10px;
+opacity: 0px;
+
+
+}
+.section-two h2 {
+  visibility: hidden;
 }
 .sec-two-p {
   font-size: 16px;
