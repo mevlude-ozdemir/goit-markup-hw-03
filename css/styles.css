@@ -279,10 +279,16 @@ p {
   border: 1px solid #e7e9fc;
 }
 .footer {
-  width: 1440px;
+  width: 100vw;
   height: 312px;
   top: 2988px;
   background: #2e2f42;
+}
+.container-footer {
+  width: 264px;
+height: 112px;
+padding-top: 100px;
+padding-left: 156px;
 }
 .logo-footer {
   font-family: "Raleway", sans-serif;
@@ -294,6 +300,7 @@ p {
   text-transform: uppercase;
   text-decoration: none;
   color: #4d5ae5;
+  display: flex;
 }
 .accent-footer {
   color: #f4f4fd;
@@ -307,4 +314,5 @@ p {
   letter-spacing: 0.02em;
   text-align: left;
   color: #f4f4fd;
+  padding-top: 16px;
 }
