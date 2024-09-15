@@ -28,7 +28,8 @@ img {
 }
 .container {
   width: 1158px;
-   padding: 0 15px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 .name-container {
   display: flex;
@@ -64,9 +65,10 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  gap: 40px;
 }
-
+.nav-list li {
+  padding: 24px 0;
+}
 .navigation > ul {
   list-style-type: none;
 }
@@ -79,9 +81,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.navigation li {
-  padding: 24px 0;
-}
+
 ul {
   list-style-type: none;
 }
