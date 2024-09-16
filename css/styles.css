@@ -2,10 +2,6 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
-  line-height: 1.5;
-  font-size: 16px;
-  font-weight: regular;
-  letter-spacing: 2%;
 }
 h1,
 h2,
@@ -23,10 +19,11 @@ ul {
 }
 img {
   display: block;
+  margin: 0;
 }
 
 .container {
-  width: 1158px;
+  width: 1128px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -62,7 +59,7 @@ img {
 }
 .navigation {
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-evenly; */
   align-items: center;
 }
 .nav-list {
@@ -118,18 +115,20 @@ img {
   height: 600px;
   display: flex;
   padding: 188px 0;
-  gap: 40px;
+  
 }
 
 .title {
   font-size: 56px;
-  font-weight: 700;
+  font-weight: bold;
   letter-spacing: 0.02em;
   line-height: 1.07;
   color: #ffffff;
   max-width: 496px;
   margin: 0 auto;
   text-align: center;
+  padding-bottom: 48px;
+  
 }
 
 .button {
@@ -145,8 +144,7 @@ img {
   border: none;
   min-width: 169px;
   height: Hug (56px) px;
-  top: 20px;
-  left: 20px;
+  
   padding: 16px 32px 16px 32px;
   gap: 10px;
   border-radius: 4px;
@@ -199,7 +197,7 @@ h3 {
   display: flex;
   gap: 24px;
 }
-.sec-two-list-item {
+.sec-two-list li {
   flex-basis: calc((100% - 72px) / 4);
 }
 
