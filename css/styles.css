@@ -40,7 +40,7 @@ img {
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
-.header a {
+.header-logo {
   margin-right: 76px;
 }
 .logo {
@@ -67,15 +67,14 @@ img {
 }
 .nav-list {
   display: flex;
-}
-
-.navigation > ul {
   gap: 40px;
 }
-.navigation > ul a {
+
+/* .navigation > ul a  */
+.nav-link {
   list-style-type: none;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 600;
   color: #2e2f42;
   font-size: 16px;
   line-height: 1.5;
@@ -83,7 +82,7 @@ img {
   padding: 24px 0;
 }
 
-.navigation > ul a:hover {
+.nav-link:hover {
   color: #404bbf;
 }
 .navigation #studio:focus {
@@ -95,13 +94,13 @@ img {
 }
 .contacts-list {
   display: flex;
-  align-items: center;
   gap: 40px;
 }
 .contacts .contacts-link {
   text-decoration: none;
   font-weight: 400;
- justify-content: center; color: #434455;
+  justify-content: center;
+  color: #434455;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -129,11 +128,8 @@ img {
   line-height: 1.07;
   color: #ffffff;
   max-width: 496px;
-  
   margin: 0 auto;
   text-align: center;
-  
-  
 }
 
 .button {
@@ -202,7 +198,6 @@ h3 {
 .sec-two-list {
   display: flex;
   gap: 24px;
-
 }
 .sec-two-list-item {
   flex-basis: calc((100% - 72px) / 4);
@@ -225,7 +220,6 @@ h3 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  
 }
 .sec-three-htwo {
   margin-bottom: 72px;
@@ -264,7 +258,6 @@ h3 {
   text-align: center;
 }
 
-
 .section-four {
   height: 1240px;
   padding: 120px 0;
@@ -287,7 +280,7 @@ h3 {
   width: 1200px;
   margin-top: 72px;
   flex-wrap: wrap;
-  row-gap: 48px
+  row-gap: 48px;
 }
 .sec-four-list-item {
   width: calc((100% - 72px) / 3);
