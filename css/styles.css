@@ -124,7 +124,7 @@ img {
   line-height: 1.07;
   color: #ffffff;
   text-transform: none;
-  max-width: 530px;
+  max-width: 496px;
   margin: 0 auto;
   text-align: center;
   padding-bottom: 48px;
@@ -182,7 +182,8 @@ h3 {
 
 .visually-hidden {
   position: absolute;
- 
+  width: 1px;
+  height: 1px;
   margin: -1px;
   border: 0;
   padding: 0;
