@@ -33,7 +33,7 @@ img {
   /* height: 72px; */
   align-items: center;
   justify-content: space-around;
-  margin: 12px 0;
+  margin: 12px auto;
   padding: 12px 0;
 }
 
@@ -320,13 +320,11 @@ p {
   color: #f4f4fd;
 }
 .footer-text {
-  /* width: 264px; */
-  /* height: 72px; */
+  max-width: 264px;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5em;
   letter-spacing: 0.02em;
   text-align: left;
   color: #f4f4fd;
-  padding-top: 16px;
 }
