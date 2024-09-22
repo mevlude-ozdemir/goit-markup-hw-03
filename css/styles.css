@@ -260,12 +260,13 @@ h3 {
   flex-wrap: wrap;
   gap: 24px;
   /* width: 1200px; */
-  margin-top: 72px;
-  row-gap: 48px;
+  /* margin-top: 72px; */
+  /* row-gap: 48px; */
 }
-.sec-four-list-item {
-  width: calc((100% - 72px) / 3);
+.sec-four-list li {
+  width: calc((100% - 48px) / 3);
 }
+
 .section-four h3,
 .section-four p {
   text-align: left;
@@ -280,11 +281,14 @@ p {
   letter-spacing: 0.02em;
 }
 .app-card {
-  padding: 32px 16px;
+  
   border: 1px solid #e7e9fc;
   border-top: none;
   margin-bottom: 8px;
+  padding: 32px 16px;
+  
 }
+
 
 .footer {
   padding: 100px 0;
