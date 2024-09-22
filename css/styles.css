@@ -30,7 +30,7 @@ img {
 
 .name-container {
   display: flex;
-  height: 72px;
+  /* height: 72px; */
   align-items: center;
   justify-content: space-around;
 }
@@ -112,7 +112,7 @@ img {
 
 .section-one {
   background-color: #2e2f42;
-  height: 600px;
+  /* height: 600px; */
   display: flex;
   padding: 188px 0;
 }
@@ -142,7 +142,7 @@ img {
   cursor: pointer;
   border: none;
   min-width: 169px;
-  height: Hug (56px) px;
+  /* height: Hug (56px) px; */
 
   padding: 16px 32px 16px 32px;
   gap: 10px;
@@ -182,8 +182,7 @@ h3 {
 
 .visually-hidden {
   position: absolute;
-  width: 1px;
-  height: 1px;
+ 
   margin: -1px;
   border: 0;
   padding: 0;
@@ -243,7 +242,7 @@ h3 {
 }
 
 .section-four {
-  height: 1350px;
+  /* height: 1350px; */
   padding: 120px 0;
 }
 .four-container {
@@ -259,7 +258,7 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
-  width: 1200px;
+  /* width: 1200px; */
   margin-top: 72px;
   row-gap: 48px;
 }
@@ -288,8 +287,8 @@ p {
 
 .footer {
   padding: 100px 0;
-  width: 100vw;
-  height: 312px;
+  /* width: 100vw; */
+  /* height: 312px; */
   top: 2988px;
   background: #2e2f42;
 }
@@ -314,8 +313,8 @@ p {
   color: #f4f4fd;
 }
 .footer-text {
-  width: 264px;
-  height: 72px;
+  /* width: 264px; */
+  /* height: 72px; */
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5em;
