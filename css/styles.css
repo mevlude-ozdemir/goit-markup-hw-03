@@ -223,10 +223,7 @@ h3 {
 }
 .sec-three-list {
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
   gap: 24px;
-  align-content: center;
 }
 .sec-three-list-item {
   background-color: #ffffff;
