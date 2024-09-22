@@ -284,6 +284,7 @@ h3 {
 }
 .sec-four-list-item {
   width: calc((100% - 72px) / 3);
+  
 }
 .section-four h3,
 .section-four p {
