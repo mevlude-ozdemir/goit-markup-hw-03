@@ -257,13 +257,10 @@ h3 {
 }
 .sec-four-list {
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  align-content: center;
+  flex-wrap: wrap;
   gap: 24px;
   width: 1200px;
   margin-top: 72px;
-  flex-wrap: wrap;
   row-gap: 48px;
 }
 .sec-four-list-item {
